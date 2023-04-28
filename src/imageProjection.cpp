@@ -260,7 +260,7 @@ public:
             if (ringFlag == -1)
             {
                 ROS_ERROR("Point cloud ring channel not available, please configure your point cloud data!");
-                ros::shutdown();
+                // ros::shutdown();
             }
         }
 
